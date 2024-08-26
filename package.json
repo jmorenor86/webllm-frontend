@@ -7,8 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build -r git@github.com:jmorenor86/webllm-front.git -f"
   },
   "dependencies": {
     "@mlc-ai/web-llm": "^0.2.62",
